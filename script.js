@@ -23,7 +23,7 @@ for (i = 0; i < allVar.length; i++) {
     mySound.play();
     console.log(fuck)
     
-    const  myTimeout = setTimeout(scare, 2000);
+    const  myTimeout = setTimeout(scare, 4300);
     function scare() {
       dog.classList.toggle("switch")
       body.classList.toggle("switch")
