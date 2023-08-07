@@ -1,6 +1,6 @@
 
 .butt{
-    background-color:yellow;
+    background-color:lightskyblue;
 }
 .fuck{
     display: block;
@@ -10,7 +10,7 @@
 }
 .fuck.open{
     border: none;
-    background-image:url("./img/chew.jpg");
+    background-image:url("./img/puppies.jpg");
     background-repeat: no-repeat;
     font-size: 0%;
     display: block;
@@ -33,6 +33,7 @@
 }
 
 .fuck.switch{
+    transition: width 1s, height 1s;
     border:none;
     background-image:url("./img/lady.jpg");
     background-repeat: no-repeat;
