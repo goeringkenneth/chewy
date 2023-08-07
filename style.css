@@ -1,0 +1,96 @@
+
+.butt{
+    background-color:yellow;
+}
+.fuck{
+    display: block;
+    margin-top: 20%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.fuck.open{
+    border: none;
+    background-image:url("./img/chew.jpg");
+    background-repeat: no-repeat;
+    font-size: 0%;
+    display: block;
+    margin-top: 3%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    background-size: 100% 100%;
+    padding:20vw;
+
+}
+
+.butt.open{
+    background-color:black;
+}
+
+
+.butt.switch{
+    background-color: black;
+}
+
+.fuck.switch{
+    border:none;
+    background-image:url("./img/lady.jpg");
+    background-repeat: no-repeat;
+    font-size: 0%;
+    display: block;
+    margin-top: 3%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    background-size: 100% 100%;
+    padding:20vw;
+
+}
+
+@media only screen and (max-width: 600px){
+
+    .fuck{
+        display: block;
+        margin-top: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .fuck.open{
+        border: none;
+        background-image:url("./img/chew.jpg");
+        background-repeat: no-repeat;
+        font-size: 0%;
+        display: block;
+        margin-top: 3%;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+        background-size: 80% 120%;
+        padding:100vw;
+    
+    }
+    
+    .butt.open{
+        background-color:black;
+    }
+    
+    
+    .butt.switch{
+        background-color: black;
+    }
+    
+    .fuck.switch{
+        border:none;
+        background-image:url("./img/lady.jpg");
+        background-repeat: no-repeat;
+        font-size: 0%;
+        display: block;
+        margin-top: 3%;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+        background-size: 80% 120%;
+        padding:100vw;
+    
+    }
+}
